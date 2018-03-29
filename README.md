@@ -17,7 +17,7 @@ https://github.com/timothyr/anomaly-detection/blob/master/Anomaly%20Detection.ip
 
 ## Getting Started
 
-The project and model rely on Python within Jupyter Notebooks and uses numpy, pandas and matplotlib.
+The project and model rely on Python within Jupyter Notebooks and uses numpy, pandas, pomegranate and matplotlib.
 
 ### Prerequisites
 
@@ -31,17 +31,12 @@ Install Jupyter Notebooks
 python3 -m pip install jupyter
 ```
 
-Use Anaconda to install numpy, pandas, scipy, scikit-learn matplotlib
+Use Anaconda to install numpy, pandas, scipy, scikit-learn, pomegranate matplotlib
 
 ```
-conda install numpy pandas scipy scikit-learn matplotlib 
+conda install numpy pandas scipy scikit-learn pomegranate matplotlib 
 ```
 
-Install hmmlearn for the Hidden Markov Model
-
-```
-pip install -U --user hmmlearn
-```
 
 ### Download The Notebook
 
