@@ -31,10 +31,16 @@ Install Jupyter Notebooks
 python3 -m pip install jupyter
 ```
 
-Use Anaconda to install numpy, pandas, matplotlib
+Use Anaconda to install numpy, pandas, scipy, scikit-learn matplotlib
 
 ```
-conda install numpy pandas matplotlib
+conda install numpy pandas scipy scikit-learn matplotlib 
+```
+
+Install hmmlearn for the Hidden Markov Model
+
+```
+pip install -U --user hmmlearn
 ```
 
 ### Download The Notebook
